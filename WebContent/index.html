@@ -1,0 +1,195 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>CHANEL</title>
+<link href="https://fonts.googleapis.com/css?family=Roboto&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.8.2/css/all.min.css" />
+<link href="index.css" rel="stylesheet" type="text/css">
+<body>
+<header>
+	<a id="btn_menu"><i class="fas fa-bars"></i></a>
+    <div id="logo">
+        <a><img src="img/logo.png" alt="logo"></a>
+    </div>
+    <ul class="show" id="menu">
+        <li><a href="#shop">SHOP</a></li>
+        <li><a href="#store">STORE</a></li>
+        <li><a href="#news">NEWS</a></li>       
+        <li><a href="#contact">CONTACT</a></li>
+    </ul>    
+    
+</header>
+
+<!-- 슬라이드 이미지 -->
+<div class="window_h" id="slider">
+	<ul id="slides">
+		<li id="slide_img"><img src="img/slide_1.jpg" alt="product"></li>
+	</ul>
+	<ul class="on_off">
+		<li><i class="fas fa-circle" id="slide_btn1"></i></li>
+		<li><i class="far fa-circle" id="slide_btn2"></i></li>
+		<li><i class="far fa-circle" id="slide_btn3"></i></li>
+	</ul>
+</div>
+
+<!-- SHOP -->
+<div id="shop">
+	<h3>SHOP</h3>
+	<hr class="set_hr">
+	<div id="main_box">
+		<div class="shop_main">
+			<h4>NEW</h4>
+			<a href="#"><img src="img/new.jpg"></a>
+		</div>
+		<div class="shop_main">
+			<h4>BEST</h4>
+			<a href="#"><img src="img/best.jpg"></a>
+		</div>
+	</div>	
+	
+	<div class="container">
+		<ul class="tabs">
+			<li class="tab-link current" data-tab="tab-1">Fashion</li>
+			<li class="tab-link" data-tab="tab-2">Accessory</li>
+			<li class="tab-link" data-tab="tab-3">Face</li>
+			<li class="tab-link" data-tab="tab-4">Perfume</li>
+		</ul>
+
+		<div id="tab-1" class="tab-content current">
+			<div class="tab_img_box">
+				<a href="#"><img src="img/fashion_1.jpg"></a>
+				<a href="#"><img src="img/fashion_2.jpg"></a>
+				<a href="#"><img src="img/fashion_3.jpg"></a>
+			</div>
+			<div class="btn_more">
+				<a>SEE MORE</a>
+			</div>
+		</div>
+		<div id="tab-2" class="tab-content">
+			<div class="tab_img_box">
+				<a href="#"><img src="img/acc_1.jpg"></a>
+				<a href="#"><img src="img/acc_2.jpg"></a>
+				<a href="#"><img src="img/acc_3.jpg"></a>
+			</div>
+			<div class="btn_more">
+				<a>SEE MORE</a>
+			</div>
+		</div>
+		<div id="tab-3" class="tab-content">
+			<div class="tab_img_box">
+				<a href="#"><img src="img/face_1.jpg"></a>
+				<a href="#"><img src="img/face_2.jpg"></a>
+				<a href="#"><img src="img/face_3.jpg"></a>
+			</div>
+			<div class="btn_more">
+				<a>SEE MORE</a>
+			</div>
+		</div>
+		<div id="tab-4" class="tab-content">
+			<div class="tab_img_box">
+				<a href="#"><img src="img/perfume_1.jpg"></a>
+				<a href="#"><img src="img/perfume_2.jpg"></a>
+				<a href="#"><img src="img/perfume_3.jpg"></a>
+			</div>
+			<div class="btn_more">
+				<a>SEE MORE</a>
+			</div>
+		</div>
+	</div>
+</div>
+
+<!-- store -->
+<div id="store">
+	<div id="store_box">
+		<h3>FIND A STORE</h3>
+		<form id="find">
+			<input id="address" type="text" placeholder="PUT YOUR CITY, STATUS" value="">
+		    <button id="submit"><i class="fas fa-search"></i></button>
+		</form>
+	</div>
+</div>
+
+<!-- news -->
+<div id="news">
+	<h3>NEWS</h3>
+	<hr class="set_hr">
+	<div id="news_box">
+		<div class="news">
+			<a href="#"><img src="img/news_1.jpg" /></a>
+			<h5>METIERS D'ART 2019/20</h5>
+			<h4>SHOW</h4>
+		</div>
+		<div class="news">
+			<a href="#"><img src="img/news_2.jpg" /></a>
+			<h5>CRUISE 2019/20</h5>
+			<h4>IN BOUTIQUES</h4>
+		</div>
+		<div class="news">
+			<a href="#"><img src="img/news_3.jpg" /></a>
+			<h5>TOKYO OPENING</h5>
+			<h4>PHARREL WILLIAMS</h4>
+		</div>
+		<div class="news">
+			<a href="#"><img src="img/news_4.jpg" /></a>
+			<h5>SPRING-SUMMER 2020</h5>
+			<h4>SHOW</h4>
+		</div>
+	</div>
+	<div class="btn_more">
+		<a>SEE MORE</a>
+	</div>
+</div>
+
+<!-- contact -->
+<div id="contact">
+<div class="clear"></div>
+	<h3>CONTACT</h3>
+	<hr class="set_hr">
+	<div id="contact_box">		
+		<ul id="sns">
+			<li>
+				<a href="https://twitter.com/chanel?lang=en" target="_blank">
+				<i class="fab fa-twitter"></i></a>
+			</li>
+			<li>
+				<a href="https://www.facebook.com/chanel" target="_blank">
+				<i class="fab fa-facebook-f"></i></a>
+			</li>
+			<li>
+				<a href="https://www.instagram.com/chanelofficial/?hl=en" target="_blank">
+				<i class="fab fa-instagram"></i></a>
+			</li>
+			<li>
+				<a href="https://www.youtube.com/user/CHANEL" target="_blank">
+				<i class="fab fa-youtube"></i></a>
+			</li>
+		</ul>
+		<a id="showMap">GO TO HEAD OFFICE</a>
+	</div>
+</div>
+
+<!-- go to head -->
+<div class="map show">
+<iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2624.475264012471!2d2.3244560799009752!3d48.86821577938989!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x47e66e3243fb73c7%3A0x3fb18180b14e0231!2sChanel%20Paris!5e0!3m2!1sko!2skr!4v1575828033933!5m2!1sko!2skr"
+width="100%" height="600px" frameborder="0" style="border:0;" allowfullscreen=""></iframe>    
+<div class="cover_map">
+        <ul>
+            <li><span>ADDRESS</span></li>
+            <li><em></em></li>
+     		<li style="margin-top:10px">31 Rue Cambon, 75001 Paris, France</li>
+        </ul>
+        
+        <ul>
+            <li><span>TEL</span></li>
+            <li><em></em></li>
+     		<li style="margin-top:10px">+33 1 44 50 66 00</li>
+        </ul>
+    </div>
+</div>
+
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+<script src="index.js" type="text/javascript"></script>
+</body>
+</html>
