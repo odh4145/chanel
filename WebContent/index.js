@@ -18,22 +18,27 @@ $(function(){
 		if(winSize <= 600){
 			$('.window_h').height(300); 
 			$('#slides').height(300);
-			$('#slides li').css({'padding-top':'50px'});
+			$('#slides li').css({'padding-top':'40px'});
+			$("#menu").removeClass("show");
 		} else if(winSize <= 800){
 			$('.window_h').height(400); 
 			$('#slides').height(400);	
+			$("#menu").removeClass("show");
 		} else if(winSize <= 1000){
 			$('.window_h').height(500); 
 			$('#slides').height(500);	
 			$("#menu").addClass("show");
+			$("header").removeClass("h_size");
 		} else if(winSize <= 1200){
 			$('.window_h').height(600); 
 			$('#slides').height(600);
 			$("#menu").addClass("show");
+			$("header").removeClass("h_size");
 		} else{
 			$('.window_h').height($(window).height());
 			$('#slides').height($(window).height());
 			$("#menu").addClass("show");
+			$("header").removeClass("h_size");
 		}
 	}
 	
@@ -78,10 +83,10 @@ $(function(){
     
     //모바일인 경우 상단 메뉴버튼 클릭시 보이기	
 	$("#btn_menu").click(function(){
-		$("#menu").toggleClass("show");
+		$("header").toggleClass("h_size");
 		
 		$("#menu li").click(function(){
-			$("#menu").addClass("show");
+			$("header").removeclass("h_size");
 		});
 	});
 	

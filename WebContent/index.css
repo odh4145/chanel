@@ -433,6 +433,9 @@ li.current{
     background-color:#ddd;
 }
 
+.h_size{
+	height:220px !important;
+}
 /* tablet */
 @media screen and (min-width:769px) and (max-width:991px){
     .map iframe{height:400px;}
@@ -441,11 +444,12 @@ li.current{
 /* mobile */
 @media screen and (max-width:768px){
 	/*메뉴*/
-	header{height:inherit;}
+	header{height:50px;}
 	#btn_menu{display:block;}
 	#logo img, #logo a{width:35px;}
 	
 	#menu, #menu li{
+		display:block !important;
 		width:100%;
 		margin:0;
 	}
@@ -455,6 +459,9 @@ li.current{
 		color:black;
 		border-bottom:1px solid #eee;
 		padding:10px 0;
+	}
+	#menu li:hover{
+		color:#aaa;
 	}
 	#menu a{
 		display:block;
