@@ -86,7 +86,7 @@ $(function(){
 		$("header").toggleClass("h_size");
 		
 		$("#menu li").click(function(){
-			$("header").removeclass("h_size");
+			$("header").removeClass("h_size");
 		});
 	});
 	

@@ -483,13 +483,12 @@ li.current{
 	}
 	
 	.tab_img_box a{
-		width:30%;
-		height:inherit;
-		margin:5px 1%;
+		display:block;
+		float:none;
+		margin:0 auto;
+		margin-bottom:5px;
 	}
-	.tab_img_box a:hover:after{
-		display:none;
-	}
+
 	.tabs li{
 		width:92px !important;
 	}
